@@ -28,6 +28,7 @@
         <input class="search-bar" type="text" placeholder="Search" />
         <button class="search-button">
           <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
         </button>
         <button class="voice-search-button">
           <img
@@ -35,11 +36,20 @@
             src="icons/voice-search-icon.svg"
             alt=""
           />
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-        <img class="upload-icon" src="icons/upload.svg" alt="" />
-        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+
         <div class="notifications-icon-container">
           <img
             class="notifications-icon"
@@ -47,13 +57,16 @@
             alt=""
           />
           <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
         </div>
 
-        <img
-          class="current-user-picture"
-          src="channel-pictures/my-channel.jpg"
-          alt=""
-        />
+        <div class="pfp-container">
+          <img
+            class="current-user-picture"
+            src="channel-pictures/my-channel.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
 
