@@ -1,5 +1,6 @@
 # Youtube Clone
 Cloned the frontend of a sample YouTube home screen with HTML and CSS\
 12 videos are included\
-Try it for yourself:
+Try it for yourself: https://brian-w-zhang.github.io/youtube_clone/
+
 
